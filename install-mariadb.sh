@@ -72,7 +72,7 @@ debian () {
 	sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 0xcbcb082a1bb943db
 	sudo add-apt-repository "deb [$arch] $mirror/$repo/$debOS $codename main"
 	sudo apt-get update -y
-	sudo apt-get install mariadb-server -y
+	sudo apt-get install mariadb-server -y --allow-unauthenticated
 	exit;
 }
 
