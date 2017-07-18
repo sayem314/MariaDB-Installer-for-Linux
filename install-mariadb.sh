@@ -4,7 +4,7 @@
 # https://github.com/sayem314/MariaDB-Installer-for-Linux
 
 # debian/ubuntu config
-repo="10.1"
+repo="10.2"
 mirror="http://mirror.i3d.net/pub/mariadb/repo"
 
 if [ -e /usr/bin/mysql ] ; then
